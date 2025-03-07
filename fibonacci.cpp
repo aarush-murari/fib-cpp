@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <climits>
-
+#include <cmath> //needed for GCC but unnecesary with MSVC
 class BigInteger {
 protected:
     short intz[500] = {0};
